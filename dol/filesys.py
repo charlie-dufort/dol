@@ -348,6 +348,7 @@ class FileBytesReader(FileCollection, KvReader):
                 data = fp.read(chunk_size)
                 if not data:
                     break
+                #
                 yield data
 
 
